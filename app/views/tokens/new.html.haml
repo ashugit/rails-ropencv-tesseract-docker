@@ -1,0 +1,8 @@
+%h1 Generate a token
+= form_tag '/tokens', :class => '', :method => 'post' do
+  = field_set_tag do
+    %p
+      = label_tag :secret_key
+      = text_field_tag :secret_key
+
+    = submit_tag "Generate"
