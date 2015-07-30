@@ -5,7 +5,11 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Docker commands
+  docker-compose build
+  docker-compose run rails bundle install
+  docker-compose run rails rake db:create
+  docker-compose up
 
 * System dependencies
 

@@ -1,3 +1,4 @@
+require 'aws-sdk'
 # config/initializers/aws-sdk.rb
 # AWS_BUCKET
 # AWS_ACCESS_KEY_ID

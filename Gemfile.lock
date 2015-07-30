@@ -121,6 +121,7 @@ GEM
     ref (2.0.0)
     responders (2.1.0)
       railties (>= 4.2.0, < 5)
+    rmagick (2.15.3)
     ropencv (0.0.21)
       ffi (~> 1.9.0)
       rbind (>= 0.0.27)
@@ -176,6 +177,7 @@ DEPENDENCIES
   pg
   rails (= 4.2.3)
   responders
+  rmagick
   ropencv
   rtesseract
   sass-rails (~> 5.0)
